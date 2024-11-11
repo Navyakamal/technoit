@@ -830,6 +830,7 @@ body {
     }
     .i1{
         top: 0 !important; 
+        margin-top: -69px;
     }
     .filter button {
         padding: 8px 15px;
@@ -877,15 +878,17 @@ body {
    
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 400px) {
     .nav1{
         display: none !important;
     }
     .nav2{
         top: 0 !important;
     }
+
     .i1{
         top: 0 !important; 
+        margin-top: -69px;
     }
     .filter button {
         padding: 6px 10px !important;
@@ -893,7 +896,27 @@ body {
         width: 100%;
         margin-bottom: 5px;
     }
-   
+   .navbar-toggler {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 70px; 
+    right: 0;
+    left: 0;
+  }
+
+  .navbar-nav {
+    flex-direction: column; 
+    width: 100%;
+  }
+
+  .item {
+    padding: 10px 0;
+  }
 
     .filter button:nth-child(3), 
     .filter button:nth-child(4), 
@@ -930,10 +953,82 @@ body {
         width: 100% !important ;
         height: auto !important;
     }
-    .cont11{
-        .col-lg-4, .col-md-12, .col-sm-12 {
-            flex: 1 0 100%; 
-            margin-bottom: 20px; 
-          }
+    
+    .contain {
+        width: 100%; 
+      }
+    .cont1{
+           
+        
+  .row {
+    display: block;
+  }
+
+  .col-lg-4, .col-md-12, .col-sm-12 {
+    width: 100% !important;
+    margin-bottom: 15px; 
+  }
+
+  .card {
+    width: 100% !important;
+    margin: 0 auto;
+    border-radius: 8px; 
+  }
+
+  .card-img-top {
+    width: 50% !important;
+    height: auto !important; 
+  }
+
+  .card-body {
+    padding: 10px; 
+  }
+
+  .card-body h4 {
+    font-size: 16px; 
+  }
+
+  .card-body p {
+    font-size: 12px; 
+  }         
+                    
+         
     }
+    
+    .cont11{
+        
+   
+  .row {
+    display: block;
+  }
+
+  .col-lg-4, .col-md-12, .col-sm-12 {
+    width: 100% !important;
+    margin-bottom: 15px; 
+  }
+
+  .card {
+    width: 100% !important;
+    margin: 0 auto; 
+    border-radius: 8px; 
+  }
+
+  .card-img-top {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .card-body {
+    padding: 10px; 
+  }
+
+  .card-body h4 {
+    font-size: 12px; 
+  }
+
+  .card-body p {
+    font-size: 1px; 
+  }
+    }
+    
   }
