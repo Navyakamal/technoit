@@ -832,6 +832,17 @@ body {
         top: 0 !important; 
         margin-top: -69px;
     }
+    .contain {
+        width: 100%; 
+        margin: 0 auto;
+        padding: 0; 
+      }
+    
+      .cont1 .col-lg-4, .cont1 .col-md-12, .cont1 .col-sm-12 {
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 20px; 
+      }
     .filter button {
         padding: 8px 15px;
         font-size: 0.9em;
@@ -850,6 +861,11 @@ body {
     .filter button:nth-child(5) {
         flex: 1 0 100%; 
     }
+    .cont11 .row .col-lg-4, .cont11 .row .col-md-12, .cont11 .row .col-sm-12 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px; 
+      }
     textarea {
         width: 100%;  
         padding: 10px;
@@ -899,7 +915,7 @@ body {
    .navbar-toggler {
     position: absolute;
     top: 20px;
-    right: 40px;
+    right: 37px;
   }
 
   .navbar-collapse {
@@ -907,6 +923,8 @@ body {
     top: 70px; 
     right: 0;
     left: 0;
+    background-color: white;
+    color: black;
   }
 
   .navbar-nav {
@@ -941,13 +959,18 @@ body {
         font-size: 0.85em;
     }
     .overlay-text {
-        left: 50%; 
+        left: 50%;
+        top:60% 
     }
     .overlay-text h2 {
         font-size: 1.5em; 
     }
     .b1, .b2 {
         font-size: 12px;
+    }
+    .b3 .b4{
+        padding: 0;
+        padding-inline: 15px;
     }
     .cont2  img {
         width: 100% !important ;
@@ -1031,4 +1054,75 @@ body {
   }
     }
     
+  }
+.cont8{
+    h2,p{
+        text-align: center;
+    }
+    .card {
+        width: 100% !important; 
+        margin: 0 auto; 
+      }
+    
+      .team button {
+        display: inline-flex;
+        justify-content: center;
+        width: 35px; 
+        height: 35px;
+        margin: 0 5px; 
+      }
+    
+      .team {
+        text-align: center; 
+      }
+}
+.cont5 .row {
+    flex-direction: column; 
+    align-items: center;   
+  }
+
+  .cont5 .col-lg-3 {
+    width: 90%; 
+    margin-bottom: 15px; 
+  }
+
+ 
+
+  .cont5 button {
+    width: 100%; 
+  }
+  .c5 button:hover {
+    transform: none; 
+    transition: none; 
+  }
+  .cont12 .container {
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+  }
+
+  .cont12 h2, .cont12 p {
+    text-align: center;
+  }
+
+  .cont12 .contact,
+  .cont12 .cont {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cont12 input[type="text"],
+  .cont12 input[type="email"],
+  .cont12 textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+
+  .cont12 button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
   }
