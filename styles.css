@@ -795,7 +795,7 @@ body {
   .scroll-to-top:hover {
     background-color: #0056b3;
   }
-  @media (max-width: 992px) {
+   @media (max-width: 992px) {
     .nav1{
         display: none !important;
     }
@@ -1053,76 +1053,53 @@ body {
     font-size: 1px; 
   }
     }
-    
+    .cont8{
+      h2,p{
+          text-align: center;
+      }
+      .card {
+          width: 100% !important; 
+          margin: 0 auto; 
+        }
+      
+        .team button {
+          display: inline-flex;
+          justify-content: center;
+          width: 35px; 
+          height: 35px;
+          margin: 0 5px; 
+        }
+      
+        .team {
+          text-align: center; 
+        }
   }
-.cont8{
-    h2,p{
-        text-align: center;
+  
+    
+  
+    .cont12 h2, .cont12 p {
+      text-align: center;
     }
-    .card {
-        width: 100% !important; 
-        margin: 0 auto; 
-      }
-    
-      .team button {
-        display: inline-flex;
-        justify-content: center;
-        width: 35px; 
-        height: 35px;
-        margin: 0 5px; 
-      }
-    
-      .team {
-        text-align: center; 
-      }
-}
-.cont5 .row {
-    flex-direction: column; 
-    align-items: center;   
-  }
+  
+   .cont12 .contact,
+    .cont12 .cont {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-  .cont5 .col-lg-3 {
-    width: 90%; 
-    margin-bottom: 15px; 
-  }
-
- 
-
-  .cont5 button {
-    width: 100%; 
-  }
-  .c5 button:hover {
-    transform: none; 
-    transition: none; 
-  }
-  .cont12 .container {
-    width: 100%;
-    padding: 0;
-    margin: 0; 
-  }
-
-  .cont12 h2, .cont12 p {
-    text-align: center;
-  }
-
-  .cont12 .contact,
-  .cont12 .cont {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .cont12 input[type="text"],
-  .cont12 input[type="email"],
-  .cont12 textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    box-sizing: border-box;
-  }
-
-  .cont12 button {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
+    .cont12 input[type="text"],
+    .cont12 input[type="email"],
+    .cont12 textarea {
+      
+      padding: 10px !important;
+      margin: 5px  !important;
+      box-sizing: border-box;
+    }
+  
+    .cont12 button {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+    }  
   }

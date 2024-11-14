@@ -2,7 +2,8 @@ window.addEventListener('scroll', function() {
     const nav2 = document.querySelector('.nav2');
     if (window.scrollY > 20) {
         nav2.classList.add('scrolled');
-    } else {
+    } 
+    else {
         nav2.classList.remove('scrolled');
     }
 });
